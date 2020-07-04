@@ -122,7 +122,7 @@ def user_stat(df,city):
     print('-'*40)
 
 
-def raw_data(frame, num_lines=5):
+def show_raw_data(frame, num_lines=5):
     '''
     '''
     while True:
@@ -144,7 +144,7 @@ def main():
         station_stat(df)
         trip_stat(df)
         user_stat(df,city)
-        raw_data(df)
+        show_raw_data(df)
         restart = input('try again? yes, no ')
         if restart.lower() !='yes':
             print("goodbye")
