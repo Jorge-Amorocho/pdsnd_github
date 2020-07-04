@@ -34,7 +34,7 @@ def get_filters():
     city=check_input('chicago, new york city or washington? ', 1)
     month=check_input('month? ', 2)
     day=check_input('day? ', 3)
-    print('-'*40)
+    print('-'*39)
     return city, month, day
     # return "chicago", "january", "monday"
 
